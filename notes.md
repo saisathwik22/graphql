@@ -91,7 +91,7 @@ client --- [Query, Mutation, apollo server] ---> [nodejs + expressjs + graphQL][
 
 - process of converting the user object into a format that can be stored and retrieved easily.
 
-# [-Passport.JS](https://passportjs.org/)
+# [Passport.JS](https://passportjs.org/)
 
 - Simple, unobtrusive authentication for Node.js
 - It's an authentication middleware for Node.js, extremely flexible and modular.

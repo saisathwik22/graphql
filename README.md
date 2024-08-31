@@ -1,4 +1,4 @@
-# GraphQL - Build an Expense Tracker App
+# [GraphQL](https://graphql.org/) - Build an Expense Tracker App
 
 <!-- ![Demo App](https://i.ibb.co/WHyMscm/Screenshot-42.png) -->
 

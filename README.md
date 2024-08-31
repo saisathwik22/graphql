@@ -35,10 +35,6 @@ npm run build
 npm start
 ```
 
-<!-- mongo uri
-mongodb+srv://reddysaisathwik022:1lnYRSvIRuhiSr6j@cluster0.kfoep.mongodb.net/gql-db?retryWrites=true&w=majority&appName=Cluster0
- -->
-
 ### packages installed
 
 ```bash

@@ -79,3 +79,23 @@ client --- [Query, Mutation, apollo server] ---> [nodejs + expressjs + graphQL][
 # What are Resolvers?
 
 - Resolvers are functions that determine how to fetch data associated with each field in schema.
+
+### Authentication Workflow
+
+- User wants to signup/login, sends request to graphQL API, package passportjs is used, its going to run the local authentication strategy.
+- Means, user sends username and password and depending on that fields.
+- After successfull login/signup, passportjs will try to serialize user object and store it into session store[userId], MongoDB.
+- After storing, we create an http-only cookie [connect.sid] [sid - sessionID] from server and we will send it to the client.
+
+### Serialization:
+
+- process of converting the user object into a format that can be stored and retrieved easily.
+
+# [-Passport.JS](https://passportjs.org/)
+
+- Simple, unobtrusive authentication for Node.js
+- It's an authentication middleware for Node.js, extremely flexible and modular.
+- It can be unobtrusively dropped into any Express-based web application.
+- Comprehensive set of strategies support authentication using username and password, Facebook, twitter and many more.
+
+- Used to check the authentication of the user who wants to make changes or interact.

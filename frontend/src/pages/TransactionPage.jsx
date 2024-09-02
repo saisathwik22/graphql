@@ -182,7 +182,7 @@ const TransactionPage = () => {
         {/* SUBMIT BUTTON */}
         <button
           className='text-white font-bold w-full rounded px-4 py-2 bg-gradient-to-br
-          from-pink-700 to-pink-700 hover:from-pink-900 hover:to-pink-900'
+          from-red-600 to-red-600 hover:from-red-900 hover:to-red-900'
           type='submit'
         >
           Update

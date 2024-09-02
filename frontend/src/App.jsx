@@ -4,12 +4,13 @@ import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import TransactionPage from "./pages/TransactionPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import Header from "./components/ui/Header";
 
 function App() {
   const authUser = true;
   return (
     <>
-      <Header />
+      {authUser && <Header />}
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/login' element={<LoginPage />} />
@@ -20,5 +21,4 @@ function App() {
     </>
   );
 }
-
 export default App;

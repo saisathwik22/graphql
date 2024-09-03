@@ -62,7 +62,7 @@ await server.start();
 
 // set up our express middleware to handle CORS, body parsing, and our expressMiddleware function
 app.use(
-  "/",
+  "/graphql",
   cors({
     origin: "http://localhost:3000",
     credentials: true,
